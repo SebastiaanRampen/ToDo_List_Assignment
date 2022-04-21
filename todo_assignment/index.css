@@ -1,0 +1,50 @@
+.header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  position: fixed;
+  background-color: lightgrey;
+  padding: 15px;
+  margin: 15px;
+}
+
+#to_do_list_div {
+  top: 150px;
+  position: relative;
+}
+
+.to_do_item {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 50px;
+  margin-top: -1px;
+  border: 1px solid black;
+}
+.to_do_item input,
+.to_do_item label,
+.to_do_item i {
+  margin-top: 20px;
+  display: block;
+  width: 50px;
+  margin-left: 50px;
+}
+.to_do_item label {
+  width: 200px;
+}
+.to_do_item i {
+  color: red;
+}
+.to_do_item input:hover,
+.to_do_item i:hover,
+.to_do_item label:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+.to_do_item #label_input {
+  margin-top: 15px;
+  height: 20px;
+  width: 192px;
+  opacity: 100%;
+}/*# sourceMappingURL=index.css.map */
